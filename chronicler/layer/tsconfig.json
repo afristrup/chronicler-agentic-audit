@@ -3,7 +3,6 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -23,15 +22,14 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "rootDir": "./src",
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["*"],
-      "@/contracts/*": ["contracts/*"],
-      "@/services/*": ["source/services/*"],
-      "@/utils/*": ["utils/*"],
-      "@/types/*": ["types/*"],
-      "@/config/*": ["config/*"]
+      "@/*": [
+        "*"
+      ],
+      "@/source/*": [
+        "source/*"
+      ]
     },
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -53,4 +51,4 @@
     "esm": true,
     "experimentalSpecifierResolution": "node"
   }
-} 
+}

@@ -1,10 +1,11 @@
-import { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-ethers";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-verify";
+import * as dotenv from "dotenv";
 import "hardhat-deploy";
 import "hardhat-gas-reporter";
+import { HardhatUserConfig } from "hardhat/config";
 import "solidity-coverage";
-import * as dotenv from "dotenv";
 
 dotenv.config();
 
@@ -109,4 +110,4 @@ const config: HardhatUserConfig = {
   },
 };
 
-export default config; 
+export default config;
