@@ -7,6 +7,7 @@ Complete documentation for the Chronicler blockchain-based AI agent audit system
 - **[Getting Started](./getting-started/)** - Setup and first steps
 - **[Architecture](./architecture/)** - System design and components
 - **[Client](./client/)** - Python client documentation
+  - **[Agents](./client/agents/)** - Agent system with MCP integration
 - **[Layer](./layer/)** - Blockchain layer documentation
 - **[API Reference](./api/)** - Complete API documentation
 - **[Deployment](./deployment/)** - Production deployment guides
@@ -22,6 +23,7 @@ Chronicler provides complete transparency and accountability for AI agent action
 - **Access Control** - Fine-grained permissions and rate limiting
 - **Registry Management** - Agent and tool registration
 - **DSPy Integration** - Seamless decorator-based integration
+- **Agent System** - Comprehensive agent framework with MCP integration
 - **Real-time Monitoring** - Dashboard and analytics
 
 ## System Components

@@ -6,7 +6,7 @@ import os
 from typing import Optional
 
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, field_validator
 
 # Load environment variables
 load_dotenv()
@@ -41,8 +41,9 @@ class ChroniclerConfig(BaseModel):
     batch_size: int = Field(default=int(os.getenv("BATCH_SIZE", "100")))
     timeout: int = Field(default=int(os.getenv("TIMEOUT", "30000")))
 
-    @validator("registry_address", "audit_log_address", "access_control_address")
-    def validate_contract_addresses(cls, v, values):
+    @field_validator("registry_address", "audit_log_address", "access_control_address")
+    @classmethod
+    def validate_contract_addresses(cls, v):
         """Validate that required contract addresses are present"""
         if not v:
             raise ValueError("Contract address is required")

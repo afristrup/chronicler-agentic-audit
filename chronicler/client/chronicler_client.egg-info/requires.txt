@@ -8,3 +8,4 @@ httpx
 pytest
 ruff
 fastapi-mcp>=0.3.7
+pytest-asyncio>=1.1.0

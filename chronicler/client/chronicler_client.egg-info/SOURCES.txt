@@ -6,3 +6,4 @@ chronicler_client.egg-info/dependency_links.txt
 chronicler_client.egg-info/requires.txt
 chronicler_client.egg-info/top_level.txt
 tests/test_decorators.py
+tests/test_services.py

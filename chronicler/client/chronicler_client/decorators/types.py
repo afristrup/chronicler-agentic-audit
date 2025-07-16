@@ -42,6 +42,14 @@ class AuditConfig(BaseModel):
     retry_attempts: int = 3
 
 
+class NetworkConfig(BaseModel):
+    """Blockchain network configuration"""
+
+    chain_id: int
+    rpc_url: str
+    contracts: Dict[str, str]
+
+
 class AuditResult(BaseModel):
     """Result of an audit operation"""
 

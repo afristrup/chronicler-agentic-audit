@@ -44,10 +44,10 @@ def test_chronicler_decorator_integration():
 
     except Exception as e:
         print(f"❌ Error: {e}")
-        return 1
+        assert False, f"Integration test failed: {e}"
 
     print("\n✅ Integration test completed successfully!")
-    return 0
+    # Don't return anything - pytest expects None
 
 
 if __name__ == "__main__":
