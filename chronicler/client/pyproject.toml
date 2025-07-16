@@ -1,0 +1,17 @@
+[project]
+name = "chronicler-python"
+version = "0.1.0"
+description = "Modular Python support for Chronicler with DSPy and web3"
+authors = [{ name = "Chronicler Team", email = "team@chronicleraudit.com" }]
+requires-python = ">=3.9"
+
+dependencies = [
+    "dspy",
+    "web3",
+    "dotenv",
+    "fastapi",
+    "uvicorn",
+    "httpx",
+    "pytest",
+    "ruff",
+]
