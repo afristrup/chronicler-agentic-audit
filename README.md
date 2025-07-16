@@ -4,6 +4,13 @@
 
 Chronicler is a comprehensive blockchain-based audit system designed to provide complete transparency and accountability for the actions of AI agents. By capturing every agent action, validating tool usage, and ensuring compliance transparency, Chronicler eliminates the need to manually explain what your AI agents did—the complete story is automatically recorded and verifiable on-chain.
 
+## Structure
+
+```text
+/chronicler/layer          # the blockchain layer (solidity)
+/chronicler/client         # the application integration (python)
+/chronicler/landing        # the landing page (nextjs)
+```
 ## System Architecture
 
 ```
