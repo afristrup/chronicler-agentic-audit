@@ -7,9 +7,9 @@ Chronicler is a comprehensive blockchain-based audit system designed to provide 
 ## Structure
 
 ```text
-/chronicler/layer          # the blockchain layer (solidity)
-/chronicler/client         # the application integration (python)
-/chronicler/landing        # the landing page (nextjs)
+/chronicler/layer          # the blockchain layer (solidity/bun)
+/chronicler/client         # the application integration (python/uv)
+/chronicler/landing        # the landing page (nextjs/bun)
 ```
 ## System Architecture
 
