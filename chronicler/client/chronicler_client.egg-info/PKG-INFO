@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: chronicler-client
+Version: 0.1.0
+Summary: Chronicler Python Client
+Author-email: Chronicler Foundation <chronicleraudit@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: dspy
+Requires-Dist: web3
+Requires-Dist: python-dotenv
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: httpx
+Requires-Dist: pytest
+Requires-Dist: ruff
+Requires-Dist: fastapi-mcp>=0.3.7

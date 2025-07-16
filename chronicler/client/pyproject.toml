@@ -1,14 +1,15 @@
 [project]
-name = "chronicler-python"
+name = "chronicler-client"
 version = "0.1.0"
-description = "Modular Python support for Chronicler with DSPy and web3"
-authors = [{ name = "Chronicler Team", email = "team@chronicleraudit.com" }]
+description = "Chronicler Python Client"
+authors = [{ name = "Chronicler Foundation", email = "chronicleraudit@gmail.com" }]
 requires-python = ">=3.10"
 
 dependencies = [
     "dspy",
     "web3",
-    "dotenv",
+    "python-dotenv",
+    "pydantic>=2.0.0",
     "fastapi",
     "uvicorn",
     "httpx",
@@ -16,3 +17,9 @@ dependencies = [
     "ruff",
     "fastapi-mcp>=0.3.7",
 ]
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+packages = ["chronicler_client"]

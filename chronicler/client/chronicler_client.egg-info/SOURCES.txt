@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+chronicler_client.egg-info/PKG-INFO
+chronicler_client.egg-info/SOURCES.txt
+chronicler_client.egg-info/dependency_links.txt
+chronicler_client.egg-info/requires.txt
+chronicler_client.egg-info/top_level.txt
+tests/test_decorators.py
