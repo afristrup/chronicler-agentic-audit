@@ -60,4 +60,4 @@ Chronicler is a comprehensive blockchain-based audit system designed to provide 
 └─────────────────┴──────────────────┴──────────────────────────────┘
 ```
 
-TODO: Rewrite this.
+TODO: Rewrite this. Haha Haha
